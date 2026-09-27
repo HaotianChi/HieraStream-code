@@ -1,0 +1,8 @@
+protocol_version: FINAL_V1
+result_class: FINAL_V1_CONFIG
+history_sizes: [10, 50, 100, 250, 500, 1000]
+baselines: [HieraStream, historical_ciphertext_update]
+current_users_fixed: 1
+current_attrs_fixed: true
+note: |
+  Revocation / history scaling vs number of historical segments.

@@ -1,0 +1,40 @@
+{
+  "name": "hierastream-network",
+  "version": "1.0.0",
+  "client": {
+    "organization": "Org1"
+  },
+  "organizations": {
+    "Org1": {
+      "mspid": "Org1MSP",
+      "peers": [
+        "peer0.org1.hierastream"
+      ]
+    }
+  },
+  "peers": {
+    "peer0.org1.hierastream": {
+      "url": "grpcs://127.0.0.1:7051",
+      "tlsCACerts": {
+        "pem": "-----BEGIN CERTIFICATE-----\nMIICVjCCAf2gAwIBAgIQO5zKCK7y4jtR/uoS6ZH6kjAKBggqhkjOPQQDAjB2MQsw\nCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FuIEZy\nYW5jaXNjbzEZMBcGA1UEChMQb3JnMS5oaWVyYXN0cmVhbTEfMB0GA1UEAxMWdGxz\nY2Eub3JnMS5oaWVyYXN0cmVhbTAeFw0yNjA5MTMwNDE1MDBaFw0zNjA5MTAwNDE1\nMDBaMHYxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQH\nEw1TYW4gRnJhbmNpc2NvMRkwFwYDVQQKExBvcmcxLmhpZXJhc3RyZWFtMR8wHQYD\nVQQDExZ0bHNjYS5vcmcxLmhpZXJhc3RyZWFtMFkwEwYHKoZIzj0CAQYIKoZIzj0D\nAQcDQgAEn8rZptPVVee2JtGZ9qD2XeStfrERSdHLYCmKWJAQOfED3xRgK5C6n6O6\nsMqST0GYKaRh2YK5cI4wSL5oxA1TuaNtMGswDgYDVR0PAQH/BAQDAgGmMB0GA1Ud\nJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATAPBgNVHRMBAf8EBTADAQH/MCkGA1Ud\nDgQiBCBAE9/efLcwMAI8lMtG1dxTn/khEuYZ0wSH/Ir/cFYN6zAKBggqhkjOPQQD\nAgNHADBEAiBDnAXfDqYQGDHY8Yp7AGwJiTjonHnQaZqTHvAzwULCowIgckjR4kyk\nTsTQ6AYJYP4GozS/vlYoEJ0fu/kSejlAVRc=\n-----END CERTIFICATE-----\n"
+      },
+      "grpcOptions": {
+        "ssl-target-name-override": "peer0.org1.hierastream"
+      }
+    }
+  },
+  "hierastream": {
+    "channel": "hierastream-channel",
+    "chaincode": "hierastream",
+    "mspid": "Org1MSP",
+    "peer_endpoint": "127.0.0.1:7051",
+    "peer_tls_ca": "../crypto-config/peerOrganizations/org1.hierastream/peers/peer0.org1.hierastream/tls/ca.crt",
+    "ssl_target_name_override": "peer0.org1.hierastream",
+    "gateway_cert": "../crypto-config/peerOrganizations/org1.hierastream/users/User1@org1.hierastream/msp/signcerts/User1@org1.hierastream-cert.pem",
+    "gateway_key": "../crypto-config/peerOrganizations/org1.hierastream/users/User1@org1.hierastream/msp/keystore/priv_sk",
+    "authority_cert": "../crypto-config/peerOrganizations/org1.hierastream/users/User2@org1.hierastream/msp/signcerts/User2@org1.hierastream-cert.pem",
+    "authority_key": "../crypto-config/peerOrganizations/org1.hierastream/users/User2@org1.hierastream/msp/keystore/priv_sk",
+    "admin_cert": "../crypto-config/peerOrganizations/org1.hierastream/users/Admin@org1.hierastream/msp/signcerts/Admin@org1.hierastream-cert.pem",
+    "admin_key": "../crypto-config/peerOrganizations/org1.hierastream/users/Admin@org1.hierastream/msp/keystore/priv_sk"
+  }
+}

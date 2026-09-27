@@ -1,0 +1,181 @@
+{
+  "panels": {
+    "gateway_partial_s": [
+      {
+        "n": 30,
+        "source_field": "gateway_partial_s",
+        "x": 5.0,
+        "y_mean": 1.1162318998685805,
+        "y_p95": 1.2947909999638796
+      },
+      {
+        "n": 30,
+        "source_field": "gateway_partial_s",
+        "x": 10.0,
+        "y_mean": 1.1253957334702136,
+        "y_p95": 1.3073750014882535
+      },
+      {
+        "n": 30,
+        "source_field": "gateway_partial_s",
+        "x": 20.0,
+        "y_mean": 1.1147610333864577,
+        "y_p95": 1.267625000764383
+      },
+      {
+        "n": 30,
+        "source_field": "gateway_partial_s",
+        "x": 40.0,
+        "y_mean": 1.190351400146028,
+        "y_p95": 1.2147910019848496
+      },
+      {
+        "n": 30,
+        "source_field": "gateway_partial_s",
+        "x": 80.0,
+        "y_mean": 1.152040233500884,
+        "y_p95": 1.317916001426056
+      },
+      {
+        "n": 30,
+        "source_field": "gateway_partial_s",
+        "x": 160.0,
+        "y_mean": 1.1162069331476232,
+        "y_p95": 1.1926670013053808
+      }
+    ],
+    "outsourced_dec_s": [
+      {
+        "n": 30,
+        "source_field": "outsourced_dec_s",
+        "x": 5.0,
+        "y_mean": 2.1945848001147774,
+        "y_p95": 2.3661669983994216
+      },
+      {
+        "n": 30,
+        "source_field": "outsourced_dec_s",
+        "x": 10.0,
+        "y_mean": 3.754319500148995,
+        "y_p95": 3.92199999987497
+      },
+      {
+        "n": 30,
+        "source_field": "outsourced_dec_s",
+        "x": 20.0,
+        "y_mean": 6.841384666889401,
+        "y_p95": 7.0577079968643375
+      },
+      {
+        "n": 30,
+        "source_field": "outsourced_dec_s",
+        "x": 40.0,
+        "y_mean": 13.14467926689152,
+        "y_p95": 13.52499999848078
+      },
+      {
+        "n": 30,
+        "source_field": "outsourced_dec_s",
+        "x": 80.0,
+        "y_mean": 25.76321809986742,
+        "y_p95": 28.743291997670894
+      },
+      {
+        "n": 30,
+        "source_field": "outsourced_dec_s",
+        "x": 160.0,
+        "y_mean": 49.62863333360777,
+        "y_p95": 50.30395799985854
+      }
+    ],
+    "outsourced_enc_s": [
+      {
+        "n": 30,
+        "source_field": "outsourced_enc_s",
+        "x": 5.0,
+        "y_mean": 3.5311013661460797,
+        "y_p95": 3.661499998997897
+      },
+      {
+        "n": 30,
+        "source_field": "outsourced_enc_s",
+        "x": 10.0,
+        "y_mean": 5.913995800195456,
+        "y_p95": 6.079834001866402
+      },
+      {
+        "n": 30,
+        "source_field": "outsourced_enc_s",
+        "x": 20.0,
+        "y_mean": 10.676737533382644,
+        "y_p95": 10.93083300293074
+      },
+      {
+        "n": 30,
+        "source_field": "outsourced_enc_s",
+        "x": 40.0,
+        "y_mean": 20.248499933465308,
+        "y_p95": 21.219375001237495
+      },
+      {
+        "n": 30,
+        "source_field": "outsourced_enc_s",
+        "x": 80.0,
+        "y_mean": 39.44091663349051,
+        "y_p95": 44.182417001138674
+      },
+      {
+        "n": 30,
+        "source_field": "outsourced_enc_s",
+        "x": 160.0,
+        "y_mean": 76.68621383345453,
+        "y_p95": 77.31195800079149
+      }
+    ],
+    "user_final_dec_s": [
+      {
+        "n": 30,
+        "source_field": "user_final_dec_s",
+        "x": 5.0,
+        "y_mean": 0.30799989945080597,
+        "y_p95": 0.33616599830565974
+      },
+      {
+        "n": 30,
+        "source_field": "user_final_dec_s",
+        "x": 10.0,
+        "y_mean": 0.3107168003528689,
+        "y_p95": 0.3505419990688097
+      },
+      {
+        "n": 30,
+        "source_field": "user_final_dec_s",
+        "x": 20.0,
+        "y_mean": 0.3174624995153863,
+        "y_p95": 0.396707997424528
+      },
+      {
+        "n": 30,
+        "source_field": "user_final_dec_s",
+        "x": 40.0,
+        "y_mean": 0.3131362000810138,
+        "y_p95": 0.324333999742521
+      },
+      {
+        "n": 30,
+        "source_field": "user_final_dec_s",
+        "x": 80.0,
+        "y_mean": 0.31985420027922373,
+        "y_p95": 0.39024999932735227
+      },
+      {
+        "n": 30,
+        "source_field": "user_final_dec_s",
+        "x": 160.0,
+        "y_mean": 0.3117028335206366,
+        "y_p95": 0.34450000021024607
+      }
+    ]
+  },
+  "run": "20260912T041730Z-b8c2c19a"
+}

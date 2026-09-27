@@ -1,0 +1,21 @@
+protocol_version: FINAL_V1
+result_class: FINAL_V1_CONFIG
+experiment: consistency_paired
+design: paired_open_loop
+auth_update_rates: [0.5, 1.0, 2.0, 5.0, 10.0]
+segments_per_rate: 40
+paired_repetitions: 10
+base_seed: 20260928
+# Open-loop publication spacing (seconds). 40 pubs × 0.025 s ≈ 1 s horizon,
+# matching the prior HieraStream wall-clock intensity.
+publication_interval_s: 0.025
+# Continue auth schedule slightly past the last publication arrival.
+auth_horizon_slack_s: 0.05
+backend: peer_mvcc
+crypto_backend: pbc
+note: |
+  Paired open-loop E4 (authorization consistency).
+  HieraStream and unversioned baseline replay identical open-loop
+  publication + authorization-update schedules per (rate, seed).
+  The unversioned path does not insert an extra forced update between
+  snapshot and commit.

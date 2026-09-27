@@ -1,0 +1,22 @@
+profile: ubuntu_final
+platform_tag: ubuntu_final
+result_class: FINAL_BENCHMARK
+
+warmup: 5
+repeats: 30
+seed: 20260311
+shuffle_experiment_order: true
+
+crypto_backend: pbc
+fabric_backend: fabric_network
+ipfs: kubo
+pairing_parameter: core/crypto/params/a.param
+
+hardware_expectations:
+  os: Ubuntu 20.04+ (x86_64)
+  notes:
+    - Use the same host for HieraStream and baselines when claiming same-hardware comparisons.
+
+fairness:
+  same_pairing_param: core/crypto/params/a.param
+  same_kdf_aead: HKDF-SHA-256 + AES-256-GCM

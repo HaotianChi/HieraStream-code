@@ -1,0 +1,38 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Native build (`make build` → ./build; bindings copied beside sources)
+build/
+*.so
+*.dylib
+
+# Local datasets (downloads + derived caches)
+data/datasets/**/raw/**
+!data/datasets/**/raw/.gitkeep
+data/datasets/**/normalized/
+*.csv.gz
+*.zip
+
+# Local experiment / figure scratch
+experiments/raw/
+results/_panels/
+outputs/
+
+# Fabric / IPFS local material (generated or installed on the host)
+core/blockchain/network/bin/
+core/blockchain/network/chaincode-packages/
+core/blockchain/network/crypto-config/
+core/blockchain/network/organizations/
+core/blockchain/network/channel-artifacts/
+**/ipfs-data/
+
+# Secrets
+.env
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

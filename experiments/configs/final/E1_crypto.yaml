@@ -1,0 +1,7 @@
+protocol_version: FINAL_V1
+result_class: FINAL_V1_CONFIG
+# Independent variables
+policy_sizes: [5, 10, 20, 40, 80, 160]
+batch_sizes: [1, 4, 16, 64]
+note: |
+  Attribute crypto cost vs policy size (leaf count) and batch size.

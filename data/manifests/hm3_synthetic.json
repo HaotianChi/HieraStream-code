@@ -1,0 +1,14 @@
+{
+  "citation": "https://doi.org/10.5281/zenodo.8307993",
+  "dataset": "hm3_synthetic",
+  "files": {},
+  "kind": "lvad_synthetic",
+  "note": "Synthetic LVAD traces from the public Zenodo package (not raw clinical data from 120 patients).",
+  "smoke_records": 10,
+  "synthetic": true,
+  "uses": [
+    "pump_flow",
+    "motor_power",
+    "timestamps"
+  ]
+}

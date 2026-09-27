@@ -1,0 +1,14 @@
+{
+  "figure": "fig8",
+  "run": "20260919T181630Z",
+  "source": "outputs/system_baselines/20260919T181630Z",
+  "round": 2,
+  "payload_seed": "hierastream-round2-payload-v1",
+  "panels": {
+    "fig8a": "system_baseline_latency_ecdf",
+    "fig8b": "system_baseline_size_scaling",
+    "fig8c": "system_baseline_throughput"
+  },
+  "plot_script": "experiments/plots/plot_system_baseline_comparison.py",
+  "notes": "In-process HieraStream/Droplet/TimeCrypt end-to-end; not live Fabric."
+}

@@ -1,0 +1,23 @@
+pairing:
+  param_file: core/crypto/params/a.param
+  symmetry_required: true
+  # Do NOT claim a concrete security level until parameters are verified.
+
+aead:
+  algorithm: AES-256-GCM
+  nonce_bytes: 12
+  tag_bytes: 16
+
+kdf:
+  algorithm: HKDF-SHA-256
+  output_bytes: 32
+  domain_attribute: "HieraStream-Attribute-v1"
+  domain_role: "HieraStream-Role-v1"
+
+serialization:
+  schema: hierastream-canonical-v1
+  endianness: big
+
+seeds:
+  unit_tests: 42
+  smoke: 7

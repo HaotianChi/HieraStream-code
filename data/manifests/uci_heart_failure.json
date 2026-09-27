@@ -1,0 +1,27 @@
+{
+  "citation": "https://doi.org/10.24432/C5Z89R",
+  "dataset": "uci_heart_failure",
+  "expected_full_uci_records": 299,
+  "fields": [
+    "age",
+    "anaemia",
+    "creatinine_phosphokinase",
+    "diabetes",
+    "ejection_fraction",
+    "high_blood_pressure",
+    "platelets",
+    "serum_creatinine",
+    "serum_sodium",
+    "sex",
+    "smoking",
+    "time",
+    "DEATH_EVENT"
+  ],
+  "integrity_check": "not_checked",
+  "kind": "static_ehr",
+  "min_acceptable_records": 290,
+  "note": "Static-record / one-segment compatibility case (not clinical evaluation).",
+  "records": 2,
+  "source": "smoke",
+  "workload": "conventional_static_one_segment"
+}

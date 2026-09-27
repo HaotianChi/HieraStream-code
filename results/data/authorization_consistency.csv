@@ -1,0 +1,11 @@
+scheme,auth_update_rate,successful_segment_commits,stale_successful_commits,stale_success_ratio,retry_rate,ratio_definition,design,run_id
+HieraStream,0.5,400,0,0.0,0.0024937655860349127,stale_successful_commits / successful_segment_commits (pooled),paired_open_loop,20260927T172314Z-642f8d58
+HieraStream,1.0,400,0,0.0,0.0,stale_successful_commits / successful_segment_commits (pooled),paired_open_loop,20260927T172314Z-642f8d58
+HieraStream,2.0,400,0,0.0,0.009900990099009901,stale_successful_commits / successful_segment_commits (pooled),paired_open_loop,20260927T172314Z-642f8d58
+HieraStream,5.0,400,0,0.0,0.0171990171990172,stale_successful_commits / successful_segment_commits (pooled),paired_open_loop,20260927T172314Z-642f8d58
+HieraStream,10.0,400,0,0.0,0.0498812351543943,stale_successful_commits / successful_segment_commits (pooled),paired_open_loop,20260927T172314Z-642f8d58
+unversioned_publication,0.5,400,0,0.0,,stale_successful_commits / successful_segment_commits (pooled),paired_open_loop,20260927T172314Z-642f8d58
+unversioned_publication,1.0,400,0,0.0,,stale_successful_commits / successful_segment_commits (pooled),paired_open_loop,20260927T172314Z-642f8d58
+unversioned_publication,2.0,400,2,0.005,,stale_successful_commits / successful_segment_commits (pooled),paired_open_loop,20260927T172314Z-642f8d58
+unversioned_publication,5.0,400,14,0.035,,stale_successful_commits / successful_segment_commits (pooled),paired_open_loop,20260927T172314Z-642f8d58
+unversioned_publication,10.0,400,22,0.055,,stale_successful_commits / successful_segment_commits (pooled),paired_open_loop,20260927T172314Z-642f8d58

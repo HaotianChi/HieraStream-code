@@ -1,0 +1,10 @@
+protocol_version: FINAL_V1
+result_class: FINAL_V1_CONFIG
+auth_update_rates: [0.5, 1.0, 2.0, 5.0, 10.0]
+segments_per_rate: 40
+duration_s: 15
+backend: peer_mvcc
+representative_update_type: attribute_revocation
+note: |
+  Prefer experiments/configs/final/E4_consistency_paired.yaml for the paper figure.
+  This file remains for the non-paired consistency runner.

@@ -1,0 +1,10 @@
+{
+  "peer_endpoint": "127.0.0.1:7051",
+  "peer_tls_ca": "../crypto-config/peerOrganizations/org1.hierastream/peers/peer0.org1.hierastream/tls/ca.crt",
+  "ssl_target_name_override": "peer0.org1.hierastream",
+  "mspid": "Org1MSP",
+  "cert_path": "../crypto-config/peerOrganizations/org1.hierastream/users/Admin@org1.hierastream/msp/signcerts/Admin@org1.hierastream-cert.pem",
+  "key_path": "../crypto-config/peerOrganizations/org1.hierastream/users/Admin@org1.hierastream/msp/keystore/priv_sk",
+  "channel": "hierastream-channel",
+  "chaincode": "hierastream"
+}

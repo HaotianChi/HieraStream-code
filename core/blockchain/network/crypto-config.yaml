@@ -1,0 +1,16 @@
+# Single-org cryptogen for HieraStream local Fabric
+OrdererOrgs:
+  - Name: Orderer
+    Domain: hierastream
+    EnableNodeOUs: true
+    Specs:
+      - Hostname: orderer
+
+PeerOrgs:
+  - Name: Org1
+    Domain: org1.hierastream
+    EnableNodeOUs: true
+    Template:
+      Count: 1
+    Users:
+      Count: 2

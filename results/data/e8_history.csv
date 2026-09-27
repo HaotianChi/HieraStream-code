@@ -1,0 +1,13 @@
+experiment,scheme,historical_segments,revocation_latency_s,bytes_communicated,historical_ciphertexts_modified,current_auth_users_fixed,revoked_attr,leaf_components_updated,bytes_read,bytes_written,metadata_storage_update_work,aes_payloads_rewritten
+E8,HieraStream,10,0.0016528749983990565,0,0,1,doctor,,,,,
+E8,historical_ciphertext_update,10,0.006549874997290317,20660,10,1,doctor,10,21020,20660,20660,0
+E8,HieraStream,50,0.001686333998804912,0,0,1,doctor,,,,,
+E8,historical_ciphertext_update,50,0.02703562500028056,103300,50,1,doctor,50,105140,103300,103300,0
+E8,HieraStream,100,0.0017147500002465677,0,0,1,doctor,,,,,
+E8,historical_ciphertext_update,100,0.053091374997165985,206600,100,1,doctor,100,210290,206600,206600,0
+E8,HieraStream,250,0.0016635419997328427,0,0,1,doctor,,,,,
+E8,historical_ciphertext_update,250,0.13052195899945218,516500,250,1,doctor,250,525890,516500,516500,0
+E8,HieraStream,500,0.0016637079970678315,0,0,1,doctor,,,,,
+E8,historical_ciphertext_update,500,0.2570405840015155,1033000,500,1,doctor,500,1051890,1033000,1033000,0
+E8,HieraStream,1000,0.0016724170018278528,0,0,1,doctor,,,,,
+E8,historical_ciphertext_update,1000,0.5034745000011753,2066000,1000,1,doctor,1000,2103890,2066000,2066000,0

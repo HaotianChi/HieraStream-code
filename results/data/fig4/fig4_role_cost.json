@@ -1,0 +1,70 @@
+{
+  "run": "20260912T042011Z-506190d0",
+  "vary_path": [
+    {
+      "n": 30,
+      "source_field": "role_encryption_s",
+      "x": 5.0,
+      "y_mean": 9.244736166995912,
+      "y_p95": 9.420750000572298
+    },
+    {
+      "n": 30,
+      "source_field": "role_encryption_s",
+      "x": 10.0,
+      "y_mean": 18.713152799682575,
+      "y_p95": 19.431082997471094
+    },
+    {
+      "n": 30,
+      "source_field": "role_encryption_s",
+      "x": 20.0,
+      "y_mean": 37.85927906683355,
+      "y_p95": 38.4829169997829
+    },
+    {
+      "n": 30,
+      "source_field": "role_encryption_s",
+      "x": 40.0,
+      "y_mean": 76.60689993329773,
+      "y_p95": 77.34774999698857
+    }
+  ],
+  "vary_targets": [
+    {
+      "n": 30,
+      "source_field": "role_encryption_s",
+      "x": 1.0,
+      "y_mean": 10.11630426667883,
+      "y_p95": 10.415542001283029
+    },
+    {
+      "n": 30,
+      "source_field": "role_encryption_s",
+      "x": 2.0,
+      "y_mean": 19.975077666458674,
+      "y_p95": 20.34050000293064
+    },
+    {
+      "n": 30,
+      "source_field": "role_encryption_s",
+      "x": 4.0,
+      "y_mean": 38.072638966332306,
+      "y_p95": 39.50708399861469
+    },
+    {
+      "n": 30,
+      "source_field": "role_encryption_s",
+      "x": 8.0,
+      "y_mean": 68.41464716623402,
+      "y_p95": 69.85058300051605
+    },
+    {
+      "n": 30,
+      "source_field": "role_encryption_s",
+      "x": 16.0,
+      "y_mean": 106.3027471331831,
+      "y_p95": 107.46991699852515
+    }
+  ]
+}

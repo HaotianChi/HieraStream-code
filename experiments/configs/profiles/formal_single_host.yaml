@@ -1,0 +1,19 @@
+profile: formal_single_host
+platform_tag: formal_single_host
+result_class: FINAL_BENCHMARK
+
+warmup: 5
+repeats: 30
+seed: 20260311
+shuffle_experiment_order: false
+
+crypto_backend: pbc
+pairing_parameter: core/crypto/params/a.param
+
+fabric_backend: peer_mvcc
+ipfs: kubo
+
+notes:
+  - Configs: experiments/configs/final/E*.yaml
+  - Default Fabric path: in-process PeerMVCC
+  - Single-host local deployment

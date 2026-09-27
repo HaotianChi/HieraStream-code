@@ -1,0 +1,10 @@
+protocol_version: FINAL_V1
+result_class: FINAL_V1_CONFIG
+datasets: [uci_heart_failure, hf_remote_monitoring, hm3_synthetic, vitaldb]
+segment_policy: records_1
+replay_rate_eps: 50
+max_events_per_dataset: 80
+dataset_scale_notes:
+  hf_remote_monitoring: "Public Zenodo CSVs = 10 subject IDs (NOT 78)."
+  hm3_synthetic: "Explicitly synthetic/simulated."
+note: Identical cryptographic and system parameters across datasets.

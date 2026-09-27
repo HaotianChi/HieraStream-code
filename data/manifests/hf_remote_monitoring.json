@@ -1,0 +1,6 @@
+{
+  "citation": "https://doi.org/10.5281/zenodo.6951625",
+  "dataset": "hf_remote_monitoring",
+  "fixture_records": 5,
+  "kind": "longitudinal_low_rate"
+}

@@ -1,0 +1,11 @@
+\begin{tabular}{|l|l|l|c|c|c|c|c|c|}
+\hline
+\textbf{Dataset} & \textbf{Scale} & \textbf{Segment size} & \textbf{Replay rate} & \textbf{Throughput} & \textbf{Latency} & \textbf{Avg payload} & \textbf{Avg metadata} & \textbf{Meta/payload} \\
+ &  &  & (events/s) & (events/s) & mean (ms) & (B) & (B) & ratio \\
+\hline
+UCI Heart Failure & 299 records & 1 record/segment & 50 & 46.30 & 18.99 & 94.5 & 4089.0 & 43.27 \\
+HF Remote Monitoring & 10 subjects / 80 events & 1 record/segment & 50 & 50.22 & 13.34 & 66.1 & 4089.0 & 61.86 \\
+HM3 Synthetic & Synthetic; 80 events & 1 record/segment & 50 & 46.99 & 17.00 & 79.0 & 4089.0 & 51.78 \\
+VitalDB & Subset; 80 events & 1 record/segment & 50 & 50.23 & 16.48 & 14.9 & 4089.0 & 274.89 \\
+\hline
+\end{tabular}

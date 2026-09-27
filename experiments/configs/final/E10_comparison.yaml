@@ -1,0 +1,17 @@
+protocol_version: FINAL_V1
+result_class: FINAL_V1_CONFIG
+schemes: [HieraStream, CP-ABE, PASH, MASS]
+# Align leaf axis with E1 formal crypto for fair same-host/pairing comparison
+policy_sizes: [5, 10, 20, 40, 80, 160]
+# warmup/repeats from selected bench profile
+evm_policy_ops: 10
+evm_query_ops: 5
+# Offered rates for Fig.8-style latency; gas must be shown independent of TPS
+evm_offered_tps: [100, 300, 500, 700, 900]
+local_evm_note: |
+  Prefer Ganache; if unavailable use Hardhat JSON-RPC at HIERASTREAM_GANACHE_URL
+  (local single-host EVM environment).
+
+note: |
+  PASH/MASS: probe-only; not a faithful end-to-end reproduction. No fabricated points.
+  EVM: live Ganache for HieraStream when HIERASTREAM_GANACHE_URL set.

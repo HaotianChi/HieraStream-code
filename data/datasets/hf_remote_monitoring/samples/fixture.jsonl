@@ -1,0 +1,5 @@
+{"payload": "weight=80.0", "payload_type": "remote_vitals", "stream_id": "remote", "timestamp": 0.0, "user_id": "hf-01"}
+{"payload": "weight=80.01", "payload_type": "remote_vitals", "stream_id": "remote", "timestamp": 86400.0, "user_id": "hf-01"}
+{"payload": "weight=80.02", "payload_type": "remote_vitals", "stream_id": "remote", "timestamp": 172800.0, "user_id": "hf-01"}
+{"payload": "weight=80.03", "payload_type": "remote_vitals", "stream_id": "remote", "timestamp": 259200.0, "user_id": "hf-01"}
+{"payload": "weight=80.04", "payload_type": "remote_vitals", "stream_id": "remote", "timestamp": 345600.0, "user_id": "hf-01"}

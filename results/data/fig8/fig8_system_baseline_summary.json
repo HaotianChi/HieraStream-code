@@ -1,0 +1,269 @@
+{
+  "run": "20260919T181630Z",
+  "payload_seed": "hierastream-round2-payload-v1",
+  "schemes": {
+    "HieraStream": {
+      "e2e_4kib": {
+        "n": 200,
+        "mean": 0.18671351455850527,
+        "median": 0.18043749150820076,
+        "p95": 0.2173340180888772,
+        "std": 0.021927888698949044
+      },
+      "sizes": {
+        "256": {
+          "total_bytes": 1945,
+          "encrypted_payload_bytes": 256,
+          "crypto_metadata_bytes": 1353,
+          "other_serialized_metadata_bytes": 336,
+          "expansion_ratio": 7.59765625,
+          "post_zlib_bytes": null
+        },
+        "1024": {
+          "total_bytes": 2713,
+          "encrypted_payload_bytes": 1024,
+          "crypto_metadata_bytes": 1353,
+          "other_serialized_metadata_bytes": 336,
+          "expansion_ratio": 2.6494140625,
+          "post_zlib_bytes": null
+        },
+        "4096": {
+          "total_bytes": 5785,
+          "encrypted_payload_bytes": 4096,
+          "crypto_metadata_bytes": 1353,
+          "other_serialized_metadata_bytes": 336,
+          "expansion_ratio": 1.412353515625,
+          "post_zlib_bytes": null
+        },
+        "16384": {
+          "total_bytes": 18073,
+          "encrypted_payload_bytes": 16384,
+          "crypto_metadata_bytes": 1353,
+          "other_serialized_metadata_bytes": 336,
+          "expansion_ratio": 1.10308837890625,
+          "post_zlib_bytes": null
+        }
+      }
+    },
+    "Droplet": {
+      "e2e_4kib": {
+        "n": 200,
+        "mean": 0.42811496852664277,
+        "median": 0.40954200085252523,
+        "p95": 0.4936669720336795,
+        "std": 0.05792385125391399
+      },
+      "sizes": {
+        "256": {
+          "total_bytes": 459,
+          "encrypted_payload_bytes": 288,
+          "crypto_metadata_bytes": 99,
+          "other_serialized_metadata_bytes": 72,
+          "expansion_ratio": 1.79296875,
+          "post_zlib_bytes": 288
+        },
+        "1024": {
+          "total_bytes": 1227,
+          "encrypted_payload_bytes": 1056,
+          "crypto_metadata_bytes": 99,
+          "other_serialized_metadata_bytes": 72,
+          "expansion_ratio": 1.1982421875,
+          "post_zlib_bytes": 1056
+        },
+        "4096": {
+          "total_bytes": 4299,
+          "encrypted_payload_bytes": 4128,
+          "crypto_metadata_bytes": 99,
+          "other_serialized_metadata_bytes": 72,
+          "expansion_ratio": 1.049560546875,
+          "post_zlib_bytes": 4128
+        },
+        "16384": {
+          "total_bytes": 16589,
+          "encrypted_payload_bytes": 16418,
+          "crypto_metadata_bytes": 99,
+          "other_serialized_metadata_bytes": 72,
+          "expansion_ratio": 1.01251220703125,
+          "post_zlib_bytes": 16418
+        }
+      }
+    },
+    "TimeCrypt": {
+      "e2e_4kib": {
+        "n": 200,
+        "mean": 3.2227733547915705,
+        "median": 3.0595420103054494,
+        "p95": 4.807042016182095,
+        "std": 0.9616637106690179
+      },
+      "sizes": {
+        "256": {
+          "total_bytes": 1834,
+          "encrypted_payload_bytes": 1714,
+          "crypto_metadata_bytes": 52,
+          "other_serialized_metadata_bytes": 68,
+          "expansion_ratio": 7.1640625,
+          "post_zlib_bytes": null
+        },
+        "1024": {
+          "total_bytes": 6153,
+          "encrypted_payload_bytes": 6034,
+          "crypto_metadata_bytes": 52,
+          "other_serialized_metadata_bytes": 67,
+          "expansion_ratio": 6.0087890625,
+          "post_zlib_bytes": null
+        },
+        "4096": {
+          "total_bytes": 23436,
+          "encrypted_payload_bytes": 23314,
+          "crypto_metadata_bytes": 52,
+          "other_serialized_metadata_bytes": 70,
+          "expansion_ratio": 5.7216796875,
+          "post_zlib_bytes": null
+        },
+        "16384": {
+          "total_bytes": 92558,
+          "encrypted_payload_bytes": 92434,
+          "crypto_metadata_bytes": 52,
+          "other_serialized_metadata_bytes": 72,
+          "expansion_ratio": 5.6492919921875,
+          "post_zlib_bytes": null
+        }
+      }
+    }
+  },
+  "throughput": {
+    "HieraStream": {
+      "50": {
+        "sustained_throughput": 49.99899057536259,
+        "successes": 1500,
+        "failures": 0,
+        "e2e_mean": 1.453713689930737,
+        "offered_attempts": 1500
+      },
+      "100": {
+        "sustained_throughput": 99.69596895971699,
+        "successes": 2991,
+        "failures": 0,
+        "e2e_mean": 1.1818006960332608,
+        "offered_attempts": 2991
+      },
+      "200": {
+        "sustained_throughput": 198.99792019296072,
+        "successes": 5970,
+        "failures": 0,
+        "e2e_mean": 1.025559806658448,
+        "offered_attempts": 5970
+      },
+      "400": {
+        "sustained_throughput": 397.2148562226153,
+        "successes": 11917,
+        "failures": 0,
+        "e2e_mean": 0.7900910298412703,
+        "offered_attempts": 11917
+      },
+      "800": {
+        "sustained_throughput": 776.1530581166684,
+        "successes": 23285,
+        "failures": 0,
+        "e2e_mean": 0.5776585165522424,
+        "offered_attempts": 23285
+      },
+      "1600": {
+        "sustained_throughput": 1567.3866395560055,
+        "successes": 47171,
+        "failures": 0,
+        "e2e_mean": 0.369560652663533,
+        "offered_attempts": 47171
+      }
+    },
+    "Droplet": {
+      "50": {
+        "sustained_throughput": 49.99934368861944,
+        "successes": 1500,
+        "failures": 0,
+        "e2e_mean": 2.311414589639753,
+        "offered_attempts": 1500
+      },
+      "100": {
+        "sustained_throughput": 99.99346084427215,
+        "successes": 3000,
+        "failures": 0,
+        "e2e_mean": 1.8684506101805407,
+        "offered_attempts": 3000
+      },
+      "200": {
+        "sustained_throughput": 199.9576474636856,
+        "successes": 5999,
+        "failures": 0,
+        "e2e_mean": 1.478655253768161,
+        "offered_attempts": 5999
+      },
+      "400": {
+        "sustained_throughput": 399.1607285913671,
+        "successes": 11975,
+        "failures": 0,
+        "e2e_mean": 1.144408679621718,
+        "offered_attempts": 11975
+      },
+      "800": {
+        "sustained_throughput": 798.3945709174035,
+        "successes": 23952,
+        "failures": 0,
+        "e2e_mean": 0.7682706559757044,
+        "offered_attempts": 23952
+      },
+      "1600": {
+        "sustained_throughput": 1597.2569300564187,
+        "successes": 47918,
+        "failures": 0,
+        "e2e_mean": 0.43243634537211595,
+        "offered_attempts": 47918
+      }
+    },
+    "TimeCrypt": {
+      "50": {
+        "sustained_throughput": 49.99891370518208,
+        "successes": 1500,
+        "failures": 0,
+        "e2e_mean": 4.001997680985369,
+        "offered_attempts": 1500
+      },
+      "100": {
+        "sustained_throughput": 99.95736799246795,
+        "successes": 2999,
+        "failures": 0,
+        "e2e_mean": 2.796026240802448,
+        "offered_attempts": 2999
+      },
+      "200": {
+        "sustained_throughput": 199.9320273839892,
+        "successes": 5998,
+        "failures": 0,
+        "e2e_mean": 2.2495397649547497,
+        "offered_attempts": 5998
+      },
+      "400": {
+        "sustained_throughput": 398.8758724369863,
+        "successes": 11967,
+        "failures": 0,
+        "e2e_mean": 1.7537601966421927,
+        "offered_attempts": 11967
+      },
+      "800": {
+        "sustained_throughput": 773.0492011143702,
+        "successes": 23192,
+        "failures": 0,
+        "e2e_mean": 1.2768518455674638,
+        "offered_attempts": 23192
+      },
+      "1600": {
+        "sustained_throughput": 777.711841474147,
+        "successes": 23332,
+        "failures": 0,
+        "e2e_mean": 1.2854820022239304,
+        "offered_attempts": 23332
+      }
+    }
+  }
+}

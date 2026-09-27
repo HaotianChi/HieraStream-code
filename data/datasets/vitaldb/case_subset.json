@@ -1,0 +1,12 @@
+{
+  "case_ids": [
+    1
+  ],
+  "note": "Smoke/subset only \u2014 full VitalDB (6388 cases) not required for unit tests.",
+  "resample_hz": null,
+  "tracks": [
+    "ART",
+    "ECG_II",
+    "PLETH"
+  ]
+}

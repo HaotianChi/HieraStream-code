@@ -1,0 +1,5 @@
+Dataset,Data type,Evaluation scope,Temporal characteristic,Evaluation role
+UCI Heart Failure,Clinical tabular records,Complete public set (299 records),Static / one-segment compatibility,Pipeline compatibility
+HF Remote Monitoring,Longitudinal weight traces,Public Zenodo CSVs: 10 subject IDs; WEIGHT only (no HR/BP columns in shipped exemplars),Longitudinal remote monitoring,Pipeline compatibility
+HM3 Synthetic LVAD,Synthetic physiological traces,Explicitly synthetic/simulated,Synthetic longitudinal stream,Controlled pipeline stress
+VitalDB,Intraoperative vital signs,Experiment-specific subsets/traces (not full 6388-case corpus),High-rate clinical stream,Pipeline / longitudinal compatibility

@@ -1,0 +1,7 @@
+offered_events_per_sec,sustained_throughput_eps,saturated,dataset
+50.0,49.866412040980215,False,vitaldb
+100.0,93.38816755071237,False,vitaldb
+200.0,162.04889221135116,False,vitaldb
+400.0,268.1224524652807,False,vitaldb
+800.0,332.0289668349577,True,vitaldb
+1600.0,469.10921671862496,True,vitaldb

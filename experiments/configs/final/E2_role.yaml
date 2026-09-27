@@ -1,0 +1,8 @@
+protocol_version: FINAL_V1
+result_class: FINAL_V1_CONFIG
+fixed_ancestor_path: 20
+fixed_targets: 4
+target_counts: [1, 2, 4, 8, 16]
+ancestor_path_sizes: [5, 10, 20, 40]
+note: |
+  Role-layer cost vs target count (fixed path=20) and ancestor path length (fixed targets=4).

@@ -1,0 +1,19 @@
+protocol_version: FINAL_V1
+result_class: FINAL_V1_LIVE_FABRIC_STEADY_STATE
+workload_model: open_loop_steady_state
+rates: [1, 8, 64, 256, 1024, 1536, 2048]
+operations: [resource_management, policy_management, CommitSegment, UpdateAuthorization]
+warmup_s: 5
+measure_s: 30
+max_outstanding: 512
+worker_threads: 512
+ua_streams: 512
+backend: live_fabric_gateway_persistent
+live_fabric_network: true
+deployment_class: single-host_local
+wan_distributed: false
+high_rate_probe: null
+fabric_topology: single-org_1peer_1orderer
+note: |
+  Steady-state open-loop Fabric rates.
+  Regions: low=1, moderate=8/64, pre-sat=256/1024, near-sat=1536, overload=2048.

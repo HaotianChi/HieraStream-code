@@ -1,0 +1,7 @@
+# Dependencies for the HieraStream prototype (not a published library package).
+cryptography>=42
+pyyaml>=6
+pytest>=8
+numpy>=1.26
+matplotlib>=3.8
+pybind11>=2.12
